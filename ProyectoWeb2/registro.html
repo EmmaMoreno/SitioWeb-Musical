@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Nuevo Usuario </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/hoja3.css" type="text/css">
+<link rel="shortcut icon" type="image/x-icon" href="imagenes/music.ico" />
+</head>
+
+<body class="bodyF">
+  <div class="signupbox">
+    <h1>Registro</h1>
+
+    <form method="post" action="index.html">
+
+      <input type="text" name="usuario" placeholder="Nombre de usuario"  required pattern="[A-Za-zÁáÉéÍíÓóÚúÑñ]+" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="contraseña" placeholder="Contraseña" required><br><br>
+      <td><span>G&eacute;nero </span></td><br>
+      <br>
+      <td><span>
+
+        Masculino  <input class="radio" type="radio" name="genero" value="MAS" required>
+        Femenino <input class="radio" type="radio" name="genero" value="FEM" required><br><br>
+
+           </span>
+       </td>
+<td><span>G&eacute;neros que te gustan</span></td><br>
+<td><span>
+  <input type="checkbox" id="rock" name="rock" value="rock" >
+  <label for="rock">Rock</label>
+  <input type="checkbox" id="indie" name="indie" value="indie" >
+  <label for="indie">Indie</label>
+  <input type="checkbox" id="folk" name="folk" value="folk" >
+  <label for="folk">Folk</label>
+  <input type="checkbox" id="disco" name="disco" value="disco" >
+  <label for="disco">Disco</label>
+  <br>
+</span>
+</td>
+  <td><span> Pais </span></td><br>
+      <td>
+        <select name="Pais" required>
+          <option value="">    --Selecciona un pais-- </option>
+          <option value="ME"> M&eacute;xico </option>
+          <option value="EU"> Estados Unidos </option>
+          <option value="CA"> Canada </option>
+        </select>
+       </td>
+       <br>
+       <br>
+       <td><span>Descripcion</span></td><br>
+       <td>
+         <textarea name="Sinopsis" cols="10" rows="10" min="20  " required placeholder="Capture"></textarea>
+         <br><br>
+            <!--crear un textarea con los atributos cols="40" y rows="15" llamarlo sinopsis-->
+        </td>
+      <input type="submit" name="submit" value="Registrarse"><br>
+
+       <a href="InicioSesion.html"> ¿Ya tienes cuenta? Inicia Sesion </a>
+</form>
+</div>
+</body>
+</html>

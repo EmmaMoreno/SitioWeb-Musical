@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Narstep</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/hoja1.css" type="text/css">
+<link rel="shortcut icon" type="image/x-icon" href="imagenes/music.ico" />
+<script type="text/javascript" src="js/slideshow.js"></script>
+</head>
+<body onload="currentSlide(1)">
+
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Narstep</a></h1>
+      <h2>El sonido del alma</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="disco.html">Disco</a></li>
+        <li><a href="folk.html">Folk</a></li>
+        <li><a href="indie.html">Indie</a></li>
+        <li><a href="rock.html">Rock</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li class="last"><a href="inicioSesion.html">Iniciar Sesi&oacute;n</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="imagenes/slides/slide1.png" class="tamaño">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="imagenes/slides/slide2.png" class="tamaño">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="imagenes/slides/slide3.png" class="tamaño">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+    <div id="homepage">
+      <!-- One Quarter -->
+      <section id="latest" class="clear">
+        <article class="one_quarter">
+          <figure><a href="disco.html"><img src="imagenes/disco.jpg" width="215" height="315" alt=""></a>
+            <figcaption>Disco</figcaption>
+          </figure>
+        </article>
+        <article class="one_quarter">
+          <figure><a href="folk.html"><img src="imagenes/folk.jpg" width="215" height="315" alt=""></a>
+            <figcaption>Folk</figcaption>
+          </figure>
+        </article>
+        <article class="one_quarter">
+          <figure> <a href="indie.html"><img src="imagenes/indieg.jpg" width="215" height="315" alt=""></a>
+            <figcaption>Indie</figcaption>
+          </figure>
+        </article>
+        <article class="one_quarter lastbox">
+          <figure><a href="rock.html"><img src="imagenes/rock.jpg" width="215" height="315" alt=""></a>
+            <figcaption>Rock</figcaption>
+          </figure>
+        </article>
+      </section>
+      <!-- / One Quarter -->
+      <section id="shout">
+        <p>La música es un lenguaje universal de comunicación entendido por todos
+           que conecta los continentes y supera distancias y culturas.
+           Llega a lo más profundo de las personas transfiriendo un sentimiento,
+           una vivencia, una idea que, de una manera u otra, provoca un movimiento
+           interno en el ser humano.</p>
+      </section>
+    </div>
+    <!-- main content -->
+    <div id="content">
+      <section id="services" class="last clear">
+        <ul>
+          <li>
+            <article class="clear">
+              <figure><img src="imagenes/vinil.jpg" alt="">
+                <figcaption>
+                  <h2>G&eacute;nero Musical</h2>
+                  <p>Un g&eacute;nero musical es una categor&iacute;a que re&uacute;ne composiciones
+                     musicales que comparten distintos criterios de afinidad,
+                     tales como su funci&oacute;n (m&uacute;sica de danza, m&uacute;sica religiosa,
+                     m&uacute;sica de cine...), su instrumentaci&oacute;n (m&uacute;sica vocal,
+                     m&uacute;sica instrumental, m&uacute;sica electrónica...), el contexto
+                     social en que es producida o el contenido de su texto.
+                     Mientras que las tradicionales clasificaciones acad&eacute;micas
+                     en g&eacute;neros musicales han atendido fundamentalmente a la
+                     funci&oacute;n de la composici&oacute;n musical</p>
+
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+          <li class="last">
+            <article class="clear">
+              <figure><img src="imagenes/vinil.jpg" alt="">
+                <figcaption>
+                  <h2>subg&eacute;nero musical</h2>
+                  <p>en el caso de subg&eacute;neros por especificaci&oacute;n detallada que
+                     contrasta tambi&eacute;n con la complejidad de or&iacute;genes e influencias
+                     de una obra determinada. Un ejemplo de esto &uatuce;ltimo es la m&uacute;sica
+                     de Led Zeppelin, que puede ser llamada heavy metal, hard rock,
+                     blues rock, en funci&oacute;n de lo que cada uno interprete.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2019 - Todos los derechos reservados</p>
+    <p class="fl_right"><a href="#">Narstep</a></p>
+  </footer>
+</div>
+</body>
+</html>

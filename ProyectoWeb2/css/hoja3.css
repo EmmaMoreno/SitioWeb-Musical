@@ -1,0 +1,252 @@
+#bodyF{
+  margin:0;
+  padding:0;
+  background: url("../imagenes/fondo.jpg");
+  background-size:cover;
+  background-position:absolute;
+  font-family: sans-serif;
+}
+
+.loginbox{
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+}
+
+.signupbox{
+  width:700px;
+  height: 1000px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+
+}
+
+
+
+.usuario{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  left: calc(50% - 50px);
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+, .signupbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.signupbox input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #C9FFF9;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #C9FFF9;
+  font-size: 16px;
+}
+
+.signupbox input[type="text"], input[type="password"], input[type="email"]{
+  border: none;
+  border-bottom: 1px solid #C9FFF9;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #C9FFF9;
+  font-size: 16px;
+}
+
+.loginbox  input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+ .signupbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox  input[type="submit"]:hover{
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+.signupbox input[type="submit"]:hover{
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.signupbox a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.loginbox a:hover{
+  color:#39dc79;
+}
+
+.radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display:inline;
+     position:inherit;
+     background-color: #f1f1f1;
+     color: #666;
+     padding:4px 11px 4px;
+     top: 30px;
+     height: 30px;
+     width: 50px;
+     border: 1;
+     border-radius: 30px;
+     cursor: pointer;
+     margin-right: 7px;
+     outline: none;
+}
+.radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.radio:hover
+{
+     background-color: #C6C6C6;
+}
+.radio:checked
+{
+     background-color: #75C6FF;
+}
+
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+textarea{
+  margin-bottom: 10px;
+  font-size:: 13pt;
+  padding:10px 6px 6px;
+  border: 1px solid #CECECE;
+  background-color: #EFEFEF;
+  text-decoration: #787575;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  outline: none;
+ }
+
+
+ select{
+   margin-bottom: 10px;
+   font-size:: 13pt;
+   padding:10px 6px 6px;
+   border: 1px solid #CECECE;
+   background-color: #EFEFEF;
+   text-decoration: #787575;
+   border-radius: 5px;
+   width: 250px;
+   height: 40px;
+   outline: none;
+  }
